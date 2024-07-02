@@ -23,7 +23,7 @@ Open a browser and go to the one of the following links:
 * [http://smartvan.johnosproject.it](http://smartvan.johnosproject.it)
 * [https://smartvan.johnosproject.it](https://smartvan.johnosproject.it)
 
-After some redirect it should display the [https://smartvan.johnosproject.org](https://smartvan.johnosproject.org)
+After some redirect it should display the [https://www.smartvanbox.org](https://www.smartvanbox.org)
 page and url.
 
 
@@ -36,13 +36,13 @@ curl -v -L -o /dev/null http://smartvan.johnosproject.it 2>&1 | egrep -i "> Host
 
 * Connected to smartvan.johnosproject.it (185.199.111.153) port 80 (#0)
 > GET / HTTP/1.1
-> Host: johnosproject.com
+> Host: smartvan.johnosproject.com
 < Server: GitHub.com
-< Location: https://smartvan.johnosproject.it/
+< Location: https://www.smartvanbox.org/
 
-* Connected to smartvan.johnosproject.it (185.199.109.153) port 443 (#1)
+* Connected to www.smartvanbox.org (185.199.109.153) port 443 (#1)
 > GET / HTTP/2
-> Host: smartvan.johnosproject.it
+> Host: www.smartvanbox.org
 < server: GitHub.com
 ```
 
